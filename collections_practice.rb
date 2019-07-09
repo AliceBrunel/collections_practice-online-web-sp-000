@@ -29,6 +29,6 @@ end
 
 def add_symbol(array)
   array.each do |word|
-  word.insert(3, '$')
+    word[3] = "$"
   end
 end
