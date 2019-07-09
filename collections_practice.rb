@@ -29,7 +29,7 @@ end
 
 def add_symbol(array)
   array.each do |word|
-    word[3] = "$"
+    word[2] = "$"
     word
   end
 end
