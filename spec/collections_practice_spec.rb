@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 4 Bonus
   describe '#swap_elements_from_to' do
     it 'swaps specified elements of an array' do
-      expect(swap_elements(["blake", "ashley", "scott","john","martin"],4,2)).to eq(["blake", "ashley","martin", "john","scott"])
+      expect(swap_elements_from_to(["blake", "ashley", "scott","john","martin"],4,2)).to eq(["blake", "ashley","martin", "john","scott"])
     end
   end
   
