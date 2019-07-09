@@ -27,7 +27,7 @@ def reverse_array(array)
   new_array = array.reverse
 end
 
-def add_symbol(array)
+def kesha_maker(array)
   array.each do |word|
     word[2] = "$"
     word
