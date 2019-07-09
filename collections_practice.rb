@@ -30,5 +30,6 @@ end
 def add_symbol(array)
   array.each do |word|
     word[3] = "$"
+    word
   end
 end
